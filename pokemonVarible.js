@@ -1,0 +1,21 @@
+var giratinaHP = 150;
+var giratinaNum = 487;
+var giratinaType = "Ghost and Dragon";
+var giratinaBestMove = "Shadow Force";
+var giratinaLastEvo = true;
+var giratinaAttack = 100;
+var giratinaDefense = 120;
+var giratinaSpecAttack = 100;
+var giratinaSpecDefense = 120;
+var giratinaSpeed = 90;
+
+var dialgaHP = 100
+var dialgaNum = 483;
+var dialgaType = "Steel and Dragon";
+var dialgaBestMove = "Roar of Time";
+var dialgaLastEvo = true;
+var dialgaAttack = 120;
+var dialgaDefense = 120;
+var dialgaSpecAttack = 150;
+var dialgaSpecDefense = 100;
+var dialgaSpeed = 90;
