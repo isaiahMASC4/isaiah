@@ -1,5 +1,5 @@
 var mashArray = ["Battlefield", "FinalDestination", "PokemonStadium", "PirateShip"];
-var firstQuestions = [1,2];
+var firstQuestions = [5,10];
 var secondQuestion = ["Mario", "Luigi"];
 var prompt = require('prompt-sync')();
 
@@ -12,6 +12,19 @@ function mash(){
 
 }
 
-function action(){
- console.log("You fought + secondQuestion + in the + mashArray + and hit them + firstQuestion + times too bad Mewtwo wins!")   
+function rand(upperbound) { 
+    return Math.floor(math.random() * upperbound);
 }
+
+function displayAnswer() {
+    var stage = mashArray[rand(mashArray.length)];
+    var hits = firstQuestion[rand(firstQuestion.length)];
+    var opponent = secondQuestion[rand(secondQuestion.length)];
+    
+    
+    console.log("You fought" + opponent + "in the" + stage + "and hit them" + hits + "times too bad Mewtwo wins!");   
+
+}
+//runs function
+mash();
+displayAnswer();
