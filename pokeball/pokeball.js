@@ -7,5 +7,7 @@ function setup(){
     arc(50,50,80,80,PI,TWO_PI);
     fill(0);
     ellipse(50,50,10,10)
-    line(50,50,88,50)
+    line(10,50,88,50)
+    fill(255)
+    ellipse(50,50,12,12)
 }
