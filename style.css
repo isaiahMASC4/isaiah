@@ -1,0 +1,46 @@
+body{
+    background-image: url("http://www.billboard.com/files/media/Grammy-Awards-table-billboard-1548.jpg");
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+.facts{
+    border: solid 3px black;
+    background-color: goldenrod;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+#Title{
+    color: white;
+    font-size: 120px;
+
+}
+
+#Name{
+    color: white;
+    font-size:100px;
+}
+
+img{
+    width:25%;
+    vertical-align: middle;
+}
+
+p{
+    width:74%;
+    vertical-align: middle;
+    display: inline-block;
+    font-size: 40px;
+}
+
+h2{
+    font-size: 70px;
+}
+
+
+
